@@ -1,0 +1,52 @@
+table{
+    width: 50%;
+    min-width: 500px;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 34px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+th, td{
+    text-align: left;
+    padding: 15px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+tr.planos{
+    background-color: rgb(1, 230, 1);
+}
+
+tr.planos th{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tr.precos{
+    background-color: rgb(238, 238, 238);
+}
+
+tr.precos th {
+    text-transform: uppercase;
+}
+
+
+tbody tr:nth-child(even) td{
+    background-color: rgb(158, 215, 233);
+}
+tbody tr:nth-child(odd) td{
+    background-color: rgb(155, 115, 155);
+}
+tbody tr:hover td{
+    background-color: rgb(163, 163, 241);
+    cursor: pointer;
+}
