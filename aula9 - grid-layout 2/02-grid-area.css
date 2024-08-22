@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 10px solid #9f0627;
+
+    display: grid;
+    grid-template-rows: repeat(4,100px);
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+        "header header"
+        "main aside"
+        "footer footer"
+    /* Espaço entre linhas e colunas */
+    /* 1fr 1fr 1fr 1fr */
+}
+
+.item {
+    padding: 10px;
+    background-color: #fe6f8e;
+    color: white;
+    border: 10px solid #ff315e;
+}
+
+.item-1{
+    grid-area: header;
+}
+
+.item-2{
+    grid-area: main;
+}
+.item-3{
+    grid-area: aside;
+}
+.item-4{
+    grid-area: footer;
+}
