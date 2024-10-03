@@ -20,7 +20,7 @@ main{
     content: "Usuário";
     font-size: 12px;
 }
-.message--assistent{
+.message--assistant{
     text-align: left;
 }
 .message--assistent::before{
