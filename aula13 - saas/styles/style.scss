@@ -1,0 +1,16 @@
+@use 'mixins';
+@use 'variables';
+
+*{
+    @include mixins.default-config()
+}
+.container{
+    @include mixins.div-size(80%,100vh );
+    background-color: variables.$secundary-color;
+    margin: 0 auto;
+
+    .box{
+        @include mixins.div-size(300px, 200px );
+        background-color: purple;
+    }
+}
